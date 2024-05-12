@@ -8,10 +8,37 @@ body{
     background-color:white;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+h1{
+    margin-top: 30px;
+    margin-left: 40%;
+    font-size: 65px;
+}
+
+h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
 
 section{
-    border: solid;
+   border: solid;
    padding: 25px;
+}
+
+.portafolio{
+    width: 958px;
+    height: 532px;
+    
+    background-color: aqua;
+}
+
+
+
+.container{
+    width: 960px;
+    border: solid red;
 }
