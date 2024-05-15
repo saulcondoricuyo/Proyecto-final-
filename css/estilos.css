@@ -12,33 +12,133 @@ body{
 
 }
 h1{
-    margin-top: 30px;
-    margin-left: 40%;
-    font-size: 65px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align:left;
+    color: #0098EF;
 }
 
 h2{
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align:center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align:left;
+    color: #0098EF;
 }
-
 
 section{
-   border: solid;
-   padding: 25px;
-}
+    border: solid;
+    margin-top: 100px;
+ }
+
+/*............seccion de Saul............*/
+
+
+
+
+/*............seccion de Julia...........*/
 
 .portafolio{
     width: 958px;
     height: 532px;
-    
-    background-color:aquamarine;
+    background-color:#fff;
+    padding: 0px;
+}
+
+.grid1{
+    width: 958px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.imgfondo{
+    background-image: url(../img/Rectangle\ 4.png);
+    width: 224px;
+    height: 220px;
+   
+}
+
+.fondoMorado{
+    color: #ffffff;
+    background-color:#6D0AD3CC;
+    width: 178px;
+    height: 174px;;
+    justify-content:center;
+    align-items:center; 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button{
+    height: 20px;
+    background-color:#D1FFA2;
+    border: none;
+    color: #580AAF;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 3px;
+    border-radius: 8px;
+    padding: 4px;
+  }
+
+.portafolio img{
+    width: 224px;
+    height: 220px; 
+    border: solid #D1FFA2;
+    margin: 1px;
 }
 
 
+.grid2{
+    width: 636px;
+    height: 692px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 201px;
+}
+
+.cajaVerde{
+    background-color: #00CF95;
+    width: 308px;
+    height: 218px;
+    margin: 5px;
+    border: 4px solid #D1FFA2;
+    position: relative;
+}
+
+.cajaVerde button{
+    height: 48px;
+    font-size: 24px;
+    position: absolute;
+    bottom:5px;
+    right:10px;
+    
+}
+  
+.cajaVerde img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+ 
+
+/*............seccion de Alvaro............*/
+
+
+
+
+
+
+/*............seccion de Saul............*/
+
+
+
+/*..............*/
 
 .container{
-    width: 960px;
+    width: 963px;
+    /*height: 3098px;*/
     border: solid red;
 }
